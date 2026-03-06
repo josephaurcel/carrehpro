@@ -135,7 +135,7 @@ h2.disp.wh em{color:var(--fuchsia);}
 .pill{font-family:'Inter',sans-serif;font-size:.6rem;font-weight:600;letter-spacing:.06em;padding:.4rem 1rem;border-radius:100px;background:var(--lavender2);border:1px solid var(--border-p);color:var(--purple);}
 
 /* ═══ DESTINATIONS ═══ */
-.dest-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:3.5rem;}
+.dest-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:3.5rem;}
 .dc{position:relative;border-radius:var(--radius);overflow:hidden;height:300px;cursor:pointer;}
 .dc:first-child{grid-column:span 2;}
 .dc img{width:100%;height:100%;object-fit:cover;filter:brightness(.55) saturate(.9);transition:transform .7s,filter .5s;}
