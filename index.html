@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Carreh — AI-powered travel platform, luxury concierge and expert visa services. Paris-based, worldwide."/>
+<title>Carreh — Travel, Concierge &amp; Visa Services</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="mainNav">
+  <a href="index.html" class="logo">Carreh<span class="logo-dot"></span></a>
+  <ul class="nav-links">
+    <li><a href="#destinations" class="active" data-en="Destinations" data-fr="Destinations">Destinations</a></li>
+    <li><a href="#concierge" data-en="Concierge" data-fr="Conciergerie">Concierge</a></li>
+    <li><a href="visas.html" data-en="Visa Services" data-fr="Services Visa">Visa Services</a></li>
+    <li><a href="#about" data-en="About" data-fr="À Propos">About</a></li>
+    <li><a href="contact.html" data-en="Contact" data-fr="Contact">Contact</a></li>
+  </ul>
+  <div class="nav-r">
+    <div class="lang-pill">
+      <button class="lbtn active" id="btnEN" onclick="setLang('en')">EN</button>
+      <button class="lbtn" id="btnFR" onclick="setLang('fr')">FR</button>
+    </div>
+    <a href="contact.html" class="nav-cta" data-en="Contact Us" data-fr="Contactez-Nous">Contact Us</a>
+  </div>
+</nav>
+
+<!-- HERO — Clean minimal with floating shapes -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-bg-shape1"></div>
+    <div class="hero-bg-shape2"></div>
+    <div class="hero-bg-shape3"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-l">
+      <div class="hero-kicker" data-en="AI Travel Platform · Paris, France" data-fr="Plateforme IA · Paris, France">AI Travel Platform · Paris, France</div>
+      <h1 data-en="Travel With<br/><strong>Confidence.</strong><br/><em>Travel Smart.</em>" data-fr="Voyagez Avec<br/><strong>Confiance.</strong><br/><em>Voyagez Mieux.</em>">Travel With<br/><strong>Confidence.</strong><br/><em>Travel Smart.</em></h1>
+      <p class="hero-sub" data-en="Carreh is your AI-powered travel companion — crafting bespoke itineraries, arranging luxury concierge services, and navigating every visa with expert precision." data-fr="Carreh est votre compagnon de voyage IA — créant des itinéraires sur mesure, organisant des services de conciergerie de luxe, et naviguant chaque visa avec une précision experte.">Carreh is your AI-powered travel companion — crafting bespoke itineraries, arranging luxury concierge services, and navigating every visa with expert precision.</p>
+      <div class="hero-btns">
+        <a href="contact.html" class="btn btn-purple" data-en="Start Your Journey →" data-fr="Commencer →">Start Your Journey →</a>
+        <a href="visas.html" class="btn btn-outline" data-en="Explore Visa Services" data-fr="Services Visa">Explore Visa Services</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="hstat-n">200<span>+</span></div><div class="hstat-l" data-en="Countries Covered" data-fr="Pays Couverts">Countries Covered</div></div>
+        <div><div class="hstat-n">50<span>+</span></div><div class="hstat-l" data-en="Visa Types" data-fr="Types de Visa">Visa Types</div></div>
+        <div><div class="hstat-n">4<span>+</span></div><div class="hstat-l" data-en="Concierge Services" data-fr="Conciergeries">Concierge Services</div></div>
+      </div>
+    </div>
+    <div class="hero-r">
+      <div class="hero-visual">
+        <div class="hero-img-main">
+          <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1200&q=80&fit=crop" alt="Paris"/>
+        </div>
+        <div class="hero-float1">
+          <div class="hf-ico">✈️</div>
+          <div class="hf-val">2s</div>
+          <div class="hf-sub">Itinerary Generated</div>
+        </div>
+        <div class="hero-float2">
+          <div class="hf2-l">AI Planning</div>
+          <div class="hf2-v">Visa approved ✓</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="mq-wrap">
+  <div class="mq-track">
+    <span class="ac">✦</span><span>AI Trip Planning</span>
+    <span class="ac">✦</span><span>Digital Nomad Visas</span>
+    <span class="ac">✦</span><span>Luxury Concierge</span>
+    <span class="ac">✦</span><span>Tourist Visas</span>
+    <span class="ac">✦</span><span>Golden Visas</span>
+    <span class="ac">✦</span><span>Personal Shopping Paris</span>
+    <span class="ac">✦</span><span>Luxury Car Rentals</span>
+    <span class="ac">✦</span><span>Worldwide Delivery</span>
+    <span class="ac">✦</span><span>AI Trip Planning</span>
+    <span class="ac">✦</span><span>Digital Nomad Visas</span>
+    <span class="ac">✦</span><span>Luxury Concierge</span>
+    <span class="ac">✦</span><span>Tourist Visas</span>
+    <span class="ac">✦</span><span>Golden Visas</span>
+    <span class="ac">✦</span><span>Personal Shopping Paris</span>
+    <span class="ac">✦</span><span>Luxury Car Rentals</span>
+    <span class="ac">✦</span><span>Worldwide Delivery</span>
+  </div>
+</div>
+
+<!-- SERVICES STRIP -->
+<div class="srv-strip">
+  <a href="#destinations" class="srv">
+    <span class="srv-ico">🗺️</span>
+    <h3 data-en="AI Trip Planning" data-fr="Planification IA">AI Trip Planning</h3>
+    <p data-en="Personalised itineraries generated in seconds. Hotels, flights, experiences — all curated by AI." data-fr="Itinéraires personnalisés générés en secondes. Hôtels, vols, expériences — tous curés par IA.">Personalised itineraries generated in seconds. Hotels, flights, experiences — all curated by AI.</p>
+    <div class="srv-arr">Explore →</div>
+  </a>
+  <a href="#concierge" class="srv">
+    <span class="srv-ico">💎</span>
+    <h3 data-en="Luxury Concierge" data-fr="Conciergerie Luxe">Luxury Concierge</h3>
+    <p data-en="Personal shopping, luxury cars, worldwide delivery and bespoke trip planning. Nothing is impossible." data-fr="Shopping personnel, voitures de luxe, livraison mondiale et planification de voyages sur mesure.">Personal shopping, luxury cars, worldwide delivery and bespoke trip planning. Nothing is impossible.</p>
+    <div class="srv-arr">Explore →</div>
+  </a>
+  <a href="visas.html" class="srv">
+    <span class="srv-ico">🛂</span>
+    <h3 data-en="Visa Services" data-fr="Services Visa">Visa Services</h3>
+    <p data-en="Expert guidance on 50+ visa types — tourist, digital nomad, golden, student, work and more." data-fr="Expertise sur 50+ types de visa — touristique, nomade numérique, golden, étudiant et plus.">Expert guidance on 50+ visa types — tourist, digital nomad, golden, student, work and more.</p>
+    <div class="srv-arr">Explore →</div>
+  </a>
+  <a href="contact.html" class="srv">
+    <span class="srv-ico">🌍</span>
+    <h3 data-en="Global Coverage" data-fr="Couverture Mondiale">Global Coverage</h3>
+    <p data-en="Europe, Africa, Asia, the Americas. Wherever you want to go, Carreh knows the way." data-fr="Europe, Afrique, Asie, Amériques. Où que vous souhaitiez aller, Carreh connaît le chemin.">Europe, Africa, Asia, the Americas. Wherever you want to go, Carreh knows the way.</p>
+    <div class="srv-arr">Contact →</div>
+  </a>
+</div>
+
+<!-- TRUST NUMBERS -->
+<div class="trust reveal">
+  <div><div class="tr-n">200<sup style="font-size:1rem">+</sup></div><div class="tr-l">Countries in our network</div></div>
+  <div><div class="tr-n">50<sup style="font-size:1rem">+</sup></div><div class="tr-l">Visa types handled</div></div>
+  <div><div class="tr-n">4</div><div class="tr-l">Concierge services</div></div>
+  <div><div class="tr-n">24h</div><div class="tr-l">Visa response time</div></div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="section" style="background:var(--off);">
+  <div class="about-grid">
+    <div class="about-img reveal">
+      <img src="https://images.unsplash.com/photo-1543051932-6ef9fecfff21?w=900&q=80&fit=crop" alt="Carreh founders"/>
+      <div class="ab-badge">
+        <div class="ab-num">31</div>
+        <div class="ab-txt">Countries explored by our founder and counting</div>
+      </div>
+    </div>
+    <div class="about-txt reveal">
+      <div class="eyebrow" data-en="About Carreh" data-fr="À Propos">About Carreh</div>
+      <h2 class="disp" style="margin-bottom:2rem;" data-en="Born in Paris.<br/><em>Built for the World.</em>" data-fr="Né à Paris.<br/><em>Construit pour le Monde.</em>">Born in Paris.<br/><em>Built for the World.</em></h2>
+      <p data-en="Carreh was founded in Paris with a singular vision: to make extraordinary travel and seamless mobility accessible to everyone. Our founder — born in Abeokuta, Nigeria, raised in the world of hospitality, and now based in Paris — understands travel not as a transaction, but as transformation." data-fr="Carreh a été fondé à Paris avec une vision singulière : rendre le voyage extraordinaire et la mobilité sans frontières accessibles à tous.">Carreh was founded in Paris with a singular vision: to make extraordinary travel and seamless mobility accessible to everyone. Our founder — born in Abeokuta, Nigeria, raised in the world of hospitality, and now based in Paris — understands travel not as a transaction, but as transformation.</p>
+      <p data-en="From AI-powered itinerary generation to expert visa consulting across 50+ countries, Carreh is the platform that connects Africa and Europe through travel, culture, and opportunity." data-fr="De la génération d'itinéraires par IA aux conseils visa experts dans 50+ pays, Carreh est la plateforme qui connecte l'Afrique et l'Europe.">From AI-powered itinerary generation to expert visa consulting across 50+ countries, Carreh is the platform that connects Africa and Europe through travel, culture, and opportunity.</p>
+      <div class="pills">
+        <span class="pill">🇫🇷 Paris HQ</span>
+        <span class="pill">🌍 Europe & Africa Focus</span>
+        <span class="pill">🤖 AI-Powered</span>
+        <span class="pill">🛂 Visa Specialists</span>
+        <span class="pill">💎 Luxury Concierge</span>
+      </div>
+      <div style="margin-top:2.5rem;">
+        <a href="contact.html" class="btn btn-purple">Work With Us →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DESTINATIONS -->
+<section id="destinations" class="section">
+  <div class="eyebrow reveal" data-en="Our Destinations" data-fr="Nos Destinations">Our Destinations</div>
+  <h2 class="disp reveal" data-en="Where Will You<br/><em>Go Next?</em>" data-fr="Où Irez-Vous<br/><em>Ensuite?</em>">Where Will You<br/><em>Go Next?</em></h2>
+  <div class="dest-grid reveal">
+    <div class="dc">
+      <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=900&q=80&fit=crop" alt="Paris"/>
+      <div class="dc-lbl">Featured</div>
+      <div class="dc-info"><div class="dc-city">Paris</div><div class="dc-ctry">France · Europe</div></div>
+    </div>
+    <div class="dc">
+      <img src="https://images.unsplash.com/photo-1588449668365-d15e397f6787?w=600&q=80&fit=crop" alt="Lagos"/>
+      <div class="dc-lbl">Hot</div>
+      <div class="dc-info"><div class="dc-city">Lagos</div><div class="dc-ctry">Nigeria · Africa</div></div>
+    </div>
+    <div class="dc">
+      <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&q=80&fit=crop" alt="London"/>
+      <div class="dc-info"><div class="dc-city">London</div><div class="dc-ctry">United Kingdom · Europe</div></div>
+    </div>
+    <div class="dc">
+      <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&fit=crop" alt="Barcelona"/>
+      <div class="dc-lbl">Visa-Free</div>
+      <div class="dc-info"><div class="dc-city">Barcelona</div><div class="dc-ctry">Spain · Europe</div></div>
+    </div>
+    <div class="dc">
+      <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80&fit=crop" alt="Nairobi"/>
+      <div class="dc-lbl">Rising</div>
+      <div class="dc-info"><div class="dc-city">Nairobi</div><div class="dc-ctry">Kenya · Africa</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONCIERGE -->
+<section id="concierge" class="section" style="background:var(--off);">
+  <div class="eyebrow reveal" data-en="Carreh Concierge" data-fr="Conciergerie Carreh">Carreh Concierge</div>
+  <h2 class="disp reveal" style="margin-bottom:.8rem;" data-en="Beyond Travel.<br/><em>A Life Well Lived.</em>" data-fr="Au-delà du Voyage.<br/><em>Une Vie Bien Vécue.</em>">Beyond Travel.<br/><em>A Life Well Lived.</em></h2>
+  <p class="reveal" style="color:var(--muted);font-size:.88rem;line-height:1.8;max-width:560px;margin-bottom:0;" data-en="Our white-glove concierge team handles the extraordinary so you don't have to. Every request is answered within 2 hours." data-fr="Notre équipe de conciergerie s'occupe de l'extraordinaire pour vous. Chaque demande reçoit une réponse en 2 heures.">Our white-glove concierge team handles the extraordinary so you don't have to. Every request is answered within 2 hours.</p>
+  <div class="con-grid">
+    <div class="con-card reveal">
+      <div class="con-img"><img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600&q=80&fit=crop" alt="Personal Shopping"/></div>
+      <div class="con-body">
+        <div class="con-tag">Luxury Shopping</div>
+        <h3>Personal Shopper in Paris</h3>
+        <p>Expert fashion advisors curating Saint Laurent, Chanel, Hermès and more — tailored to your taste and budget.</p>
+        <a href="contact.html" class="con-link">Request Service →</a>
+      </div>
+    </div>
+    <div class="con-card reveal" style="animation-delay:.1s;">
+      <div class="con-img"><img src="https://images.unsplash.com/photo-1566827191344-7fca41de9ea1?w=600&q=80&fit=crop" alt="Home Delivery"/></div>
+      <div class="con-body">
+        <div class="con-tag">Worldwide Delivery</div>
+        <h3>Luxury Home Delivery</h3>
+        <p>Shop in Paris, receive at home — anywhere in the world. White-glove packing, full tracking, zero stress.</p>
+        <a href="contact.html" class="con-link">Request Service →</a>
+      </div>
+    </div>
+    <div class="con-card reveal" style="animation-delay:.2s;">
+      <div class="con-img"><img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=80&fit=crop" alt="Luxury Cars"/></div>
+      <div class="con-body">
+        <div class="con-tag">Premium Mobility</div>
+        <h3>Luxury &amp; Exotic Car Rentals</h3>
+        <p>Lamborghini, Rolls-Royce, Ferrari — with or without a chauffeur. Available across Europe with 24hr notice.</p>
+        <a href="contact.html" class="con-link">Request Service →</a>
+      </div>
+    </div>
+    <div class="con-card reveal" style="animation-delay:.3s;">
+      <div class="con-img"><img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80&fit=crop" alt="Bespoke Trips"/></div>
+      <div class="con-body">
+        <div class="con-tag">Bespoke Travel</div>
+        <h3>Custom Trip Planning</h3>
+        <p>Fully personalised luxury travel from first-class flights to private villa stays and exclusive experiences.</p>
+        <a href="contact.html" class="con-link">Request Service →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VISA PREVIEW STRIP -->
+<section class="section visa-strip">
+  <div class="eyebrow wh reveal" data-en="Visa Services" data-fr="Services Visa">Visa Services</div>
+  <h2 class="disp wh reveal" data-en="Your Passport to<br/><em>Every Country.</em>" data-fr="Votre Passeport pour<br/><em>Chaque Pays.</em>">Your Passport to<br/><em>Every Country.</em></h2>
+  <p class="reveal" style="color:rgba(255,255,255,.45);font-size:.88rem;line-height:1.8;max-width:560px;margin-bottom:0;margin-top:.8rem;" data-en="Carreh's visa specialists have helped clients from Nigeria, France and beyond secure visas to 50+ countries. We handle every type — from tourist stays to permanent residency." data-fr="Les spécialistes visa de Carreh ont aidé des clients du Nigéria, de France et d'ailleurs à obtenir des visas pour 50+ pays.">Carreh's visa specialists have helped clients from Nigeria, France and beyond secure visas to 50+ countries. We handle every type — from tourist stays to permanent residency.</p>
+  <div class="visa-cats reveal">
+    <a href="visas.html#tourist" class="vcat">
+      <span class="vcat-ico">🏖️</span>
+      <h3>Tourist Visas</h3>
+      <p>Short-stay visas for holidays, family visits and exploration. We guide you through documentation, appointments and applications.</p>
+      <div class="ctrs">Schengen · UK · USA · Canada · UAE · Malaysia · Thailand · Turkey · 20+ more</div>
+    </a>
+    <a href="visas.html#nomad" class="vcat">
+      <span class="vcat-ico">💻</span>
+      <h3>Digital Nomad Visas</h3>
+      <p>Live and work remotely in Europe, Asia and beyond. Special long-stay programs designed for remote workers and freelancers.</p>
+      <div class="ctrs">Portugal · Spain · Italy · France · Croatia · Greece · 15+ more</div>
+    </a>
+    <a href="visas.html#golden" class="vcat">
+      <span class="vcat-ico">🏆</span>
+      <h3>Golden Visas &amp; Residency</h3>
+      <p>Investment-based residency and citizenship programs. A second home, a second passport — Carreh makes it achievable.</p>
+      <div class="ctrs">Portugal · Greece · Malta · UAE · Hungary · 10+ more</div>
+    </a>
+    <a href="visas.html#work" class="vcat">
+      <span class="vcat-ico">💼</span>
+      <h3>Work &amp; Talent Visas</h3>
+      <p>EU Blue Cards, tech visas, entrepreneur permits. Get the right visa to build your career in Europe or beyond.</p>
+      <div class="ctrs">France · Germany · Czech Republic · Malaysia · UAE</div>
+    </a>
+    <a href="visas.html#student" class="vcat">
+      <span class="vcat-ico">🎓</span>
+      <h3>Student Visas</h3>
+      <p>Study in Europe with confidence. We handle your student visa application from start to acceptance letter.</p>
+      <div class="ctrs">France · Portugal · Italy · Spain · Czech Republic</div>
+    </a>
+    <a href="visas.html#family" class="vcat">
+      <span class="vcat-ico">👨‍👩‍👧</span>
+      <h3>Family Reunification</h3>
+      <p>Bring your family to where you are. Expert support for family reunification visas across Europe and beyond.</p>
+      <div class="ctrs">Portugal · Italy · Spain · Croatia · Czech Republic</div>
+    </a>
+  </div>
+  <div class="reveal" style="margin-top:3rem;text-align:center;">
+    <a href="visas.html" class="btn btn-white" data-en="See All Visa Services →" data-fr="Voir Tous les Visas →">See All Visa Services →</a>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-sec">
+  <div class="eyebrow wh reveal" data-en="Ready to Travel?" data-fr="Prêt à Voyager?">Ready to Travel?</div>
+  <h2 class="reveal" data-en="Your Next Chapter<br/><em>Starts Here.</em>" data-fr="Votre Prochain Chapitre<br/><em>Commence Ici.</em>">Your Next Chapter<br/><em>Starts Here.</em></h2>
+  <p class="reveal" data-en="Whether you need a visa, a luxury trip or a concierge service — Carreh is your single point of excellence." data-fr="Que vous ayez besoin d'un visa, d'un voyage de luxe ou d'un service conciergerie — Carreh est votre point d'excellence.">Whether you need a visa, a luxury trip or a concierge service — Carreh is your single point of excellence.</p>
+  <div class="cta-row reveal">
+    <a href="contact.html" class="btn btn-white">Get Started →</a>
+    <a href="visas.html" class="btn btn-outline-wh">Visa Services</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft">
+    <div>
+      <a href="index.html" class="flogo">Carreh</a>
+      <p class="ftag">Your AI Travel Platform &amp; Luxury Concierge. Expert visa services. Paris-based, globally connected.</p>
+      <div class="fsoc">
+        <a href="https://instagram.com/carrehpro" target="_blank" class="fsoc-a">📷</a>
+        <a href="https://wa.me/330775846342" target="_blank" class="fsoc-a">💬</a>
+        <a href="mailto:support@carreh.com" class="fsoc-a">✉</a>
+      </div>
+    </div>
+    <div class="fc"><h4>Platform</h4><ul><li><a href="#destinations">Destinations</a></li><li><a href="#concierge">Concierge</a></li><li><a href="#about">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="fc"><h4>Visa Services</h4><ul><li><a href="visas.html#tourist">Tourist Visas</a></li><li><a href="visas.html#nomad">Digital Nomad</a></li><li><a href="visas.html#golden">Golden Visas</a></li><li><a href="visas.html#work">Work Visa</a></li><li><a href="visas.html#student">Student Visa</a></li></ul></div>
+    <div class="fc"><h4>Contact</h4><ul><li><a href="mailto:support@carreh.com">support@carreh.com</a></li><li><a href="https://wa.me/330775846342">+33 07 75 84 63 42</a></li><li><a href="https://instagram.com/carrehpro">@carrehpro</a></li><li><a href="#">Paris 75011</a></li></ul></div>
+  </div>
+  <div class="fb">
+    <span class="fb-copy">© 2025 Carreh. SIREN 999 322 886. All rights reserved.</span>
+    <span class="fb-copy">Paris · Lagos · London · Nairobi</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

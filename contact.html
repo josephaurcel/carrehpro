@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Contact Carreh — Reach our team for travel planning, visa services, concierge enquiries or partnerships. Paris-based, always reachable."/>
+<title>Contact — Carreh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="mainNav">
+  <a href="index.html" class="logo">Carreh<span class="logo-dot"></span></a>
+  <ul class="nav-links">
+    <li><a href="index.html#destinations">Destinations</a></li>
+    <li><a href="index.html#concierge">Concierge</a></li>
+    <li><a href="visas.html">Visa Services</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+  <div class="nav-r">
+    <div class="lang-pill">
+      <button class="lbtn active" id="btnEN" onclick="setLang('en')">EN</button>
+      <button class="lbtn" id="btnFR" onclick="setLang('fr')">FR</button>
+    </div>
+    <a href="contact.html" class="nav-cta">Contact Us</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="ph-inner">
+    <div class="eyebrow wh">Get In Touch</div>
+    <h1>Let's Begin Your<br/><em>Next Journey.</em></h1>
+    <p>Whether you're planning a luxury trip, applying for a visa, or seeking our concierge services — our team in Paris is ready to assist you. We respond to every message within 24 hours.</p>
+    <div class="hero-tags">
+      <span class="htag">📍 Paris, France</span>
+      <span class="htag">⚡ 24h Response</span>
+      <span class="htag">🌍 Available Worldwide</span>
+      <span class="htag">💬 WhatsApp Available</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT MAIN -->
+<section class="section" style="background:var(--off);">
+  <div class="contact-layout">
+
+    <!-- LEFT — Contact Info -->
+    <div class="ci reveal">
+      <h3>How to Reach Us</h3>
+      <p>We're a Paris-based team passionate about making global travel accessible. Reach us through any of the channels below — we speak English, French and can assist in multiple languages.</p>
+
+      <div class="c-links">
+        <a href="#contactForm" class="c-link" onclick="document.querySelector('.cf-box').scrollIntoView({behavior:'smooth'});return false;">
+          <div class="c-ico">✉</div>
+          <div>
+            <div class="c-lbl">Email</div>
+            <div class="c-val">Send us a message via the form</div>
+          </div>
+        </a>
+        <a href="https://wa.me/330775846342" target="_blank" class="c-link">
+          <div class="c-ico">💬</div>
+          <div>
+            <div class="c-lbl">WhatsApp &amp; Phone</div>
+            <div class="c-val">+33 07 75 84 63 42</div>
+          </div>
+        </a>
+        <a href="https://instagram.com/carrehpro" target="_blank" class="c-link">
+          <div class="c-ico">📷</div>
+          <div>
+            <div class="c-lbl">Instagram</div>
+            <div class="c-val">@carrehpro</div>
+          </div>
+        </a>
+        <div class="c-link" style="cursor:default;">
+          <div class="c-ico">📍</div>
+          <div>
+            <div class="c-lbl">Headquarters</div>
+            <div class="c-val">29 Av. de la République, Paris 75011</div>
+          </div>
+        </div>
+      </div>
+
+      <p style="font-size:.78rem;color:var(--muted);margin-bottom:1.1rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;">Follow Us</p>
+      <div class="soc-row">
+        <a href="https://instagram.com/carrehpro" target="_blank" class="soc-btn ig">
+          <span>📷</span> @carrehpro
+        </a>
+        <a href="https://wa.me/330775846342" target="_blank" class="soc-btn wa">
+          <span>💬</span> WhatsApp Us
+        </a>
+      </div>
+
+      <div style="margin-top:2.5rem;padding:1.8rem;background:var(--lavender2);border:1px solid var(--border-p);border-radius:var(--radius);">
+        <div style="font-size:.6rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--purple);margin-bottom:.75rem;">Response Times</div>
+        <div style="display:flex;flex-direction:column;gap:.55rem;">
+          <div style="display:flex;justify-content:space-between;font-size:.78rem;"><span style="color:var(--muted);">General Enquiries</span><strong style="color:var(--deep);">Within 24 hours</strong></div>
+          <div style="display:flex;justify-content:space-between;font-size:.78rem;"><span style="color:var(--muted);">Visa Requests</span><strong style="color:var(--deep);">Within 24 hours</strong></div>
+          <div style="display:flex;justify-content:space-between;font-size:.78rem;"><span style="color:var(--muted);">Concierge Requests</span><strong style="color:var(--deep);">Within 2 hours</strong></div>
+          <div style="display:flex;justify-content:space-between;font-size:.78rem;"><span style="color:var(--muted);">WhatsApp</span><strong style="color:var(--deep);">Usually instant</strong></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT — Contact Form -->
+    <div class="cf-box reveal">
+      <div class="cf-title" data-en="Send Us a Message" data-fr="Envoyez-Nous un Message">Send Us a Message</div>
+      <div class="cf-sub" data-en="Fill in the form below and we'll get back to you promptly. For urgent matters, WhatsApp is fastest." data-fr="Remplissez le formulaire ci-dessous et nous vous répondrons rapidement. Pour les urgences, WhatsApp est le plus rapide.">Fill in the form below and we'll get back to you promptly. For urgent matters, WhatsApp is fastest.</div>
+
+      <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="return submitContact(event)">
+        <input type="hidden" name="form-name" value="contact"/>
+        <p class="hidden" style="display:none;"><label>Don't fill this out: <input name="bot-field"/></label></p>
+        <div class="frow">
+          <div class="fg">
+            <label data-en="First Name" data-fr="Prénom">First Name</label>
+            <input type="text" name="firstName" placeholder="Your first name" data-en-ph="Your first name" data-fr-ph="Votre prénom" required/>
+          </div>
+          <div class="fg">
+            <label data-en="Last Name" data-fr="Nom">Last Name</label>
+            <input type="text" name="lastName" placeholder="Your last name" data-en-ph="Your last name" data-fr-ph="Votre nom" required/>
+          </div>
+        </div>
+        <div class="frow">
+          <div class="fg">
+            <label data-en="Email Address" data-fr="Adresse Email">Email Address</label>
+            <input type="email" name="email" placeholder="your@email.com" required/>
+          </div>
+          <div class="fg">
+            <label data-en="Phone / WhatsApp" data-fr="Téléphone / WhatsApp">Phone / WhatsApp</label>
+            <input type="tel" name="phone" placeholder="+33 or +234..."/>
+          </div>
+        </div>
+        <div class="fg">
+          <label data-en="I'm Enquiring About" data-fr="Je Me Renseigne Sur">I'm Enquiring About</label>
+          <select name="subject" required>
+            <option value="">Select a topic...</option>
+            <option value="General Enquiry — Travel Platform">General Enquiry — Travel Platform</option>
+            <option value="Visa Services — Tourist">Visa Services — Tourist Visa</option>
+            <option value="Visa Services — Digital Nomad">Visa Services — Digital Nomad Visa</option>
+            <option value="Visa Services — Golden Visa">Visa Services — Golden Visa</option>
+            <option value="Visa Services — Work Permit">Visa Services — Work Permit</option>
+            <option value="Visa Services — Student Visa">Visa Services — Student Visa</option>
+            <option value="Visa Services — Family Reunification">Visa Services — Family Reunification</option>
+            <option value="Concierge — Personal Shopping">Concierge — Personal Shopping Paris</option>
+            <option value="Concierge — Home Delivery">Concierge — Luxury Home Delivery</option>
+            <option value="Concierge — Luxury Car Rental">Concierge — Luxury Car Rental</option>
+            <option value="Concierge — Bespoke Trip">Concierge — Bespoke Trip Planning</option>
+            <option value="Partnership / Affiliate">Partnership / Affiliate</option>
+            <option value="Investor Enquiry">Investor Enquiry</option>
+            <option value="Press / Media">Press / Media</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+        <div class="fg">
+          <label data-en="Nationality" data-fr="Nationalité">Nationality (for visa enquiries)</label>
+          <input type="text" name="nationality" placeholder="e.g. Nigerian, French, British..."/>
+        </div>
+        <div class="fg">
+          <label data-en="Your Message" data-fr="Votre Message">Your Message</label>
+          <textarea name="message" rows="5" placeholder="Tell us what you need — we'll take it from there. Include any relevant details about your travel plans, visa history, timeline or budget." data-en-ph="Tell us what you need — we'll take it from there." data-fr-ph="Dites-nous ce dont vous avez besoin." required></textarea>
+        </div>
+        <button type="submit" class="fsub" data-en="Send Message →" data-fr="Envoyer →">Send Message →</button>
+      </form>
+
+      <div class="form-ok" id="contactOk">
+        <div class="ok-ico">✅</div>
+        <h4>Message Sent!</h4>
+        <p>Thank you for reaching out! Your message has been received and our team will get back to you within 24 hours. You can also reach us directly on WhatsApp for faster response.</p>
+        <div style="margin-top:1.5rem;">
+          <a href="https://wa.me/330775846342" target="_blank" class="btn btn-purple">Continue on WhatsApp →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="section">
+  <div class="eyebrow reveal">Frequently Asked</div>
+  <h2 class="disp reveal" style="margin-bottom:3rem;">Common Questions<br/><em>Answered.</em></h2>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;" class="reveal">
+    <div style="background:var(--lavender2);border:1px solid var(--border-p);border-radius:var(--radius);padding:2rem;">
+      <h4 style="font-family:'DM Serif Display',serif;font-size:1.08rem;color:var(--deep);margin-bottom:.65rem;">How do I apply for a visa with Carreh?</h4>
+      <p style="font-size:.78rem;color:var(--muted);line-height:1.75;">Fill out the contact form above or message us on WhatsApp. We'll assess your situation, confirm eligibility, and guide you through the full application process.</p>
+    </div>
+    <div style="background:var(--lavender2);border:1px solid var(--border-p);border-radius:var(--radius);padding:2rem;">
+      <h4 style="font-family:'DM Serif Display',serif;font-size:1.08rem;color:var(--deep);margin-bottom:.65rem;">Which nationalities can you assist?</h4>
+      <p style="font-size:.78rem;color:var(--muted);line-height:1.75;">We specialize in assisting Nigerian, African and other non-EU nationals applying to European countries — but we assist clients from all nationalities worldwide.</p>
+    </div>
+    <div style="background:var(--lavender2);border:1px solid var(--border-p);border-radius:var(--radius);padding:2rem;">
+      <h4 style="font-family:'DM Serif Display',serif;font-size:1.08rem;color:var(--deep);margin-bottom:.65rem;">What documents will I need?</h4>
+      <p style="font-size:.78rem;color:var(--muted);line-height:1.75;">It depends on the visa type, but typically includes a valid passport, bank statements, accommodation proof, travel insurance and a cover letter. Carreh prepares and reviews all documents.</p>
+    </div>
+    <div style="background:var(--lavender2);border:1px solid var(--border-p);border-radius:var(--radius);padding:2rem;">
+      <h4 style="font-family:'DM Serif Display',serif;font-size:1.08rem;color:var(--deep);margin-bottom:.65rem;">How long does a visa application take?</h4>
+      <p style="font-size:.78rem;color:var(--muted);line-height:1.75;">Processing times vary by country — from 3 days for UAE tourist visas to 2–3 months for digital nomad visas. Carreh keeps you updated throughout the process.</p>
+    </div>
+    <div style="background:var(--lavender2);border:1px solid var(--border-p);border-radius:var(--radius);padding:2rem;">
+      <h4 style="font-family:'DM Serif Display',serif;font-size:1.08rem;color:var(--deep);margin-bottom:.65rem;">Do you offer concierge services separately from visas?</h4>
+      <p style="font-size:.78rem;color:var(--muted);line-height:1.75;">Yes. Our concierge services (personal shopping, luxury cars, home delivery, bespoke trips) are completely independent of visa services. Contact us for either or both.</p>
+    </div>
+    <div style="background:var(--lavender2);border:1px solid var(--border-p);border-radius:var(--radius);padding:2rem;">
+      <h4 style="font-family:'DM Serif Display',serif;font-size:1.08rem;color:var(--deep);margin-bottom:.65rem;">Are you based only in Paris?</h4>
+      <p style="font-size:.78rem;color:var(--muted);line-height:1.75;">Our headquarters is in Paris (75011), but we serve clients across Europe, Africa and beyond entirely remotely. Everything can be handled digitally — no need to visit our office.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-sec">
+  <div class="eyebrow wh reveal">Still Have Questions?</div>
+  <h2 class="reveal">We're Just a<br/><em>Message Away.</em></h2>
+  <p class="reveal">For the fastest response, message us directly on WhatsApp. Our team is based in Paris and available 7 days a week.</p>
+  <div class="cta-row reveal">
+    <a href="https://wa.me/330775846342" target="_blank" class="btn btn-white">💬 Message on WhatsApp</a>
+    <a href="#contactForm" class="btn btn-outline-wh" onclick="document.getElementById('contactForm').scrollIntoView({behavior:'smooth'});return false;">✉ Send Us a Message</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft">
+    <div>
+      <a href="index.html" class="flogo">Carreh</a>
+      <p class="ftag">Your AI Travel Platform &amp; Luxury Concierge. Expert visa services. Paris-based, globally connected.</p>
+      <div class="fsoc">
+        <a href="https://instagram.com/carrehpro" target="_blank" class="fsoc-a">📷</a>
+        <a href="https://wa.me/330775846342" target="_blank" class="fsoc-a">💬</a>
+        <a href="mailto:support@carreh.com" class="fsoc-a">✉</a>
+      </div>
+    </div>
+    <div class="fc"><h4>Platform</h4><ul><li><a href="index.html#destinations">Destinations</a></li><li><a href="index.html#concierge">Concierge</a></li><li><a href="index.html#about">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="fc"><h4>Visa Services</h4><ul><li><a href="visas.html#tourist">Tourist Visas</a></li><li><a href="visas.html#nomad">Digital Nomad</a></li><li><a href="visas.html#golden">Golden Visas</a></li><li><a href="visas.html#work">Work Visa</a></li><li><a href="visas.html#student">Student Visa</a></li></ul></div>
+    <div class="fc"><h4>Contact</h4><ul><li><a href="mailto:support@carreh.com">support@carreh.com</a></li><li><a href="https://wa.me/330775846342">+33 07 75 84 63 42</a></li><li><a href="https://instagram.com/carrehpro">@carrehpro</a></li><li><a href="#">Paris 75011</a></li></ul></div>
+  </div>
+  <div class="fb">
+    <span class="fb-copy">© 2025 Carreh. SIREN 999 322 886. All rights reserved.</span>
+    <span class="fb-copy">Paris · Lagos · London · Nairobi</span>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

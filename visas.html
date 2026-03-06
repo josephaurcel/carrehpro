@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Carreh Visa Services — Expert guidance on tourist visas, digital nomad visas, golden visas, work permits, student visas and more across 50+ countries."/>
+<title>Visa Services — Carreh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="mainNav">
+  <a href="index.html" class="logo">Carreh<span class="logo-dot"></span></a>
+  <ul class="nav-links">
+    <li><a href="index.html#destinations">Destinations</a></li>
+    <li><a href="index.html#concierge">Concierge</a></li>
+    <li><a href="visas.html" class="active">Visa Services</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="nav-r">
+    <div class="lang-pill">
+      <button class="lbtn active" id="btnEN" onclick="setLang('en')">EN</button>
+      <button class="lbtn" id="btnFR" onclick="setLang('fr')">FR</button>
+    </div>
+    <a href="contact.html" class="nav-cta">Contact Us</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="ph-inner">
+    <div class="eyebrow wh">Carreh Visa Services</div>
+    <h1>Your Expert Guide to<br/><em>Every Visa.</em></h1>
+    <p>Carreh specialises in securing visas for clients from Nigeria, France and across the world. Our expert team navigates the paperwork, timelines and requirements — so you focus on the journey ahead.</p>
+    <div class="hero-tags">
+      <span class="htag">50+ Countries</span>
+      <span class="htag">Tourist Visas</span>
+      <span class="htag">Digital Nomad Visas</span>
+      <span class="htag">Golden Visas</span>
+      <span class="htag">Work Permits</span>
+      <span class="htag">Student Visas</span>
+      <span class="htag">Family Reunification</span>
+    </div>
+    <div style="margin-top:2.5rem;">
+      <button class="btn btn-white" onclick="openModal('Visa Consultation')">Request a Free Consultation →</button>
+    </div>
+  </div>
+</section>
+
+<!-- VISA NAV TABS -->
+<div class="visa-nav" id="visaNavBar">
+  <button class="vntab active" data-target="sec-tourist" onclick="switchTab('sec-tourist',this)">🏖️ Tourist Visas</button>
+  <button class="vntab" data-target="sec-nomad" onclick="switchTab('sec-nomad',this)">💻 Digital Nomad</button>
+  <button class="vntab" data-target="sec-golden" onclick="switchTab('sec-golden',this)">🏆 Golden Visas</button>
+  <button class="vntab" data-target="sec-work" onclick="switchTab('sec-work',this)">💼 Work &amp; Talent</button>
+  <button class="vntab" data-target="sec-student" onclick="switchTab('sec-student',this)">🎓 Student Visas</button>
+  <button class="vntab" data-target="sec-family" onclick="switchTab('sec-family',this)">👨‍👩‍👧 Family Reunification</button>
+  <button class="vntab" data-target="sec-investor" onclick="switchTab('sec-investor',this)">📈 Investor Visas</button>
+</div>
+
+<!-- ══════════════════════════════
+     TOURIST VISAS
+══════════════════════════════ -->
+<div id="sec-tourist" class="vsec">
+  <div class="vsec-hd reveal">
+    <div class="eyebrow">Tourist &amp; Short-Stay Visas</div>
+    <h2>Explore the World,<br/>Hassle-Free</h2>
+    <p>Whether you're planning a holiday, visiting family, or attending a business event, Carreh handles every step of your tourist visa application. We know what embassies want — and how to get you approved.</p>
+    <div style="margin-top:1.5rem;"><button class="btn btn-purple" onclick="openModal('Tourist Visa')">Request Tourist Visa Assistance →</button></div>
+    <div class="scroll-hint">Scroll to explore →</div>
+  </div>
+  <div class="visa-grid reveal">
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#003087,#0052b4);">🇫🇷</div>
+        <div class="vc-flag">🇪🇺</div>
+        <div class="vc-badge">Schengen</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">Europe · Multiple Countries</div>
+        <h3>Schengen Tourist Visa</h3>
+        <p>Access 27 European countries with a single visa. Valid for up to 90 days in any 180-day period. Carreh prepares your full dossier — bank statements, travel insurance, hotel bookings and cover letter.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Up to 90 days</strong></div>
+          <div class="vc-mi">⏱ <strong>15–30 days processing</strong></div>
+          <div class="vc-mi">🌍 <strong>27 countries</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Schengen Tourist Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#012169,#C8102E);">🇬🇧</div>
+        <div class="vc-flag">🇬🇧</div>
+        <div class="vc-badge">Standard Visitor</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">United Kingdom</div>
+        <h3>UK Standard Visitor Visa</h3>
+        <p>Visit the UK for tourism, business, or to see family. Carreh helps with your full application — financial proof, itinerary, and accommodation evidence.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Up to 6 months</strong></div>
+          <div class="vc-mi">⏱ <strong>3 weeks processing</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('UK Standard Visitor Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#002868,#BF0A30);">🇺🇸</div>
+        <div class="vc-flag">🇺🇸</div>
+        <div class="vc-badge">B-1/B-2</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">United States of America</div>
+        <h3>US Tourist Visa (B-2)</h3>
+        <p>Visit the United States for leisure, tourism, or medical treatment. Carreh assists with DS-160 form, ESTA eligibility, interview prep and document preparation.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Up to 6 months</strong></div>
+          <div class="vc-mi">⏱ <strong>Varies by consulate</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('US Tourist Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#FF0000,#FFFFFF);">🇨🇦</div>
+        <div class="vc-flag">🇨🇦</div>
+        <div class="vc-badge">Temporary Resident</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">Canada</div>
+        <h3>Canada Tourist Visa (TRV)</h3>
+        <p>Explore Canada — from Toronto to Vancouver. Carreh prepares your complete application including proof of funds, ties to home country, and travel history documentation.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Up to 6 months</strong></div>
+          <div class="vc-mi">⏱ <strong>2–8 weeks</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Canada Tourist Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#00732F,#FFFFFF);">🇦🇪</div>
+        <div class="vc-flag">🇦🇪</div>
+        <div class="vc-badge">Tourist</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">United Arab Emirates</div>
+        <h3>UAE Tourist Visa</h3>
+        <p>Visit Dubai or Abu Dhabi with full support from Carreh. We handle online applications, entry permit requirements and multi-entry options.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>30 or 60 days</strong></div>
+          <div class="vc-mi">⏱ <strong>3–5 business days</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('UAE Tourist Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#DE2910,#FFC500);">🇨🇳</div>
+        <div class="vc-flag">🇨🇳</div>
+        <div class="vc-badge">L Visa</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">China</div>
+        <h3>China Tourist Visa (L)</h3>
+        <p>Explore Shanghai, Beijing and beyond with a China L visa. We prepare itineraries, hotel bookings and the full application dossier for single, double or multiple entry.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Up to 60 days/entry</strong></div>
+          <div class="vc-mi">⏱ <strong>5–10 days</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('China Tourist Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#010066,#CC0001);">🇲🇾</div>
+        <div class="vc-flag">🇲🇾</div>
+        <div class="vc-badge">eVISA / eNTRI</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">Malaysia · Asia</div>
+        <h3>Malaysia Tourist Visa</h3>
+        <p>Explore Kuala Lumpur, Langkawi and Penang. Malaysia offers eVISA and eNTRI (electronic travel registration) for many nationalities. Carreh handles the full online application and document preparation.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Up to 30 days</strong></div>
+          <div class="vc-mi">⏱ <strong>3–5 business days</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Malaysia Tourist Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#A51931,#2D2A4A);">🇹🇭</div>
+        <div class="vc-flag">🇹🇭</div>
+        <div class="vc-badge">Tourist / eVisa</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">Thailand · Asia</div>
+        <h3>Thailand Tourist Visa</h3>
+        <p>Visit Bangkok, Phuket and Chiang Mai. Thailand offers visa-on-arrival for some nationalities and a 60-day tourist visa for others. Carreh prepares your complete application and itinerary.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Up to 60 days</strong></div>
+          <div class="vc-mi">⏱ <strong>5–7 business days</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Thailand Tourist Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#DA251D,#FFCD00);">🇻🇳</div>
+        <div class="vc-flag">🇻🇳</div>
+        <div class="vc-badge">e-Visa</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">Vietnam · Asia</div>
+        <h3>Vietnam Tourist Visa</h3>
+        <p>Discover Hanoi, Ho Chi Minh City and Ha Long Bay. Vietnam's e-Visa system allows online applications for citizens of 80+ countries. Carreh ensures a smooth, hassle-free process.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Up to 90 days</strong></div>
+          <div class="vc-mi">⏱ <strong>3–5 business days</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Vietnam Tourist Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#007749,#FFB81C);">🇿🇦</div>
+        <div class="vc-flag">🇿🇦</div>
+        <div class="vc-badge">Visitor Visa</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">South Africa · Africa</div>
+        <h3>South Africa Tourist Visa</h3>
+        <p>Experience Cape Town, Johannesburg and Kruger National Park. Carreh assists with the full South African visitor visa application including financial proof, accommodation and return tickets.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Up to 90 days</strong></div>
+          <div class="vc-mi">⏱ <strong>5–10 business days</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('South Africa Tourist Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#C1272D,#006233);">🇲🇦</div>
+        <div class="vc-flag">🇲🇦</div>
+        <div class="vc-badge">Tourist</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">Morocco · Africa</div>
+        <h3>Morocco Tourist Visa</h3>
+        <p>Visit Marrakech, Fes and the Sahara Desert. Many nationalities can enter Morocco visa-free, while others need a consular visa. Carreh checks your eligibility and handles the full application.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Up to 90 days</strong></div>
+          <div class="vc-mi">⏱ <strong>5–15 business days</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Morocco Tourist Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img">
+        <div class="vc-placeholder" style="background:linear-gradient(135deg,#E30A17,#FFFFFF);">🇹🇷</div>
+        <div class="vc-flag">🇹🇷</div>
+        <div class="vc-badge">e-Visa / Sticker</div>
+      </div>
+      <div class="vc-body">
+        <div class="vc-ctry">Turkey · Europe / Asia</div>
+        <h3>Turkey Tourist Visa</h3>
+        <p>Explore Istanbul, Cappadocia and the Turkish Riviera. Turkey offers an easy e-Visa for many nationalities and sticker visas for others. Carreh guides you through the right route for your passport.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Up to 90 days</strong></div>
+          <div class="vc-mi">⏱ <strong>1–3 business days (e-Visa)</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Turkey Tourist Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     DIGITAL NOMAD VISAS
+══════════════════════════════ -->
+<div id="sec-nomad" class="vsec" style="display:none;">
+  <div class="vsec-hd reveal">
+    <div class="eyebrow">Digital Nomad &amp; Remote Work Visas</div>
+    <h2>Live Anywhere.<br/>Work Everywhere.</h2>
+    <p>Digital nomad visas let you live as a resident in a country while working remotely for clients or employers abroad. These programs typically last 1–2 years and can be renewed. Carreh guides you through eligibility, income requirements and the full application.</p>
+    <div style="margin-top:1.5rem;"><button class="btn btn-purple" onclick="openModal('Digital Nomad Visa')">Find My Nomad Visa →</button></div>
+    <div class="scroll-hint">Scroll to explore →</div>
+  </div>
+  <div class="visa-grid reveal">
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/6000x3760/092bf83d36/portugal-digital-nomad-visa.jpg" alt="Portugal"/></div>
+      <div class="vc-flag">🇵🇹</div>
+      <div class="vc-badge">Digital Nomad</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Portugal · Europe</div>
+        <h3>Portugal Digital Nomad Visa</h3>
+        <p>Live in Lisbon or Porto while working remotely. Requires a minimum monthly income of ~€3,040. One of Europe's most popular nomad destinations — with a path to permanent residency.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>1 year renewable</strong></div>
+          <div class="vc-mi">💰 <strong>€3,040/mo min income</strong></div>
+          <div class="vc-mi">⏱ <strong>2–3 months</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Portugal Digital Nomad Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/6000x4000/4ef85fffb2/france-digital-nomad-visa.jpg" alt="France"/></div>
+      <div class="vc-flag">🇫🇷</div>
+      <div class="vc-badge">Digital Nomad</div>
+      <div class="vc-body">
+        <div class="vc-ctry">France · Europe</div>
+        <h3>France Digital Nomad Visa</h3>
+        <p>Live and work remotely from Paris or the French Riviera. The VLS-T long-stay visa is ideal for non-EU remote workers. Carreh specialises in French visa applications.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>1 year</strong></div>
+          <div class="vc-mi">💰 <strong>Proof of income required</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.2</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('France Digital Nomad Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/4675x3117/125009242d/spain-digital-nomad-visa.jpg" alt="Spain"/></div>
+      <div class="vc-flag">🇪🇸</div>
+      <div class="vc-badge">Digital Nomad</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Spain · Europe</div>
+        <h3>Spain Digital Nomad Visa</h3>
+        <p>Work remotely from Barcelona, Madrid or Seville. Spain's new nomad visa requires proof of remote employment or freelance income from outside Spain.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>1 year, extendable to 3</strong></div>
+          <div class="vc-mi">💰 <strong>200% Spanish min wage</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 3.4</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Spain Digital Nomad Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/5184x3456/f904bb8aa7/italy-digital-nmad-visa.jpg" alt="Italy"/></div>
+      <div class="vc-flag">🇮🇹</div>
+      <div class="vc-badge">Digital Nomad</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Italy · Europe</div>
+        <h3>Italy Digital Nomad Visa</h3>
+        <p>Experience la dolce vita while working remotely. Italy's nomad visa targets highly skilled remote workers earning above €28,000/year.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>1 year renewable</strong></div>
+          <div class="vc-mi">💰 <strong>€28,000/year</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 3.8</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Italy Digital Nomad Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/5000x3333/65b9a070a0/croatia-digital-nomad-visa.jpg" alt="Croatia"/></div>
+      <div class="vc-flag">🇭🇷</div>
+      <div class="vc-badge">Digital Nomad</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Croatia · Europe</div>
+        <h3>Croatia Digital Nomad Visa</h3>
+        <p>Dubrovnik and Split at your doorstep. Croatia's digital nomad visa is one of the most accessible in Europe — lower income threshold and a simple application process.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>1 year</strong></div>
+          <div class="vc-mi">💰 <strong>~€2,539/mo</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.4</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Croatia Digital Nomad Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/4458x2972/c912dda8e3/greece-digital-nomad-visa.jpg" alt="Greece"/></div>
+      <div class="vc-flag">🇬🇷</div>
+      <div class="vc-badge">Digital Nomad</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Greece · Europe</div>
+        <h3>Greece Digital Nomad Visa</h3>
+        <p>Santorini, Athens, Mykonos — live in paradise and work remotely. Greece offers a 12-month renewable visa with a reasonable income threshold.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>1 year renewable</strong></div>
+          <div class="vc-mi">💰 <strong>€3,500/mo</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 3.8</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Greece Digital Nomad Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/1280x720/dc5a214161/czech-republic-digital-nomad-visa.jpg" alt="Czech Republic"/></div>
+      <div class="vc-flag">🇨🇿</div>
+      <div class="vc-badge">Digital Nomad</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Czech Republic · Europe</div>
+        <h3>Czech Republic Digital Nomad Visa</h3>
+        <p>Prague is one of Europe's most beautiful cities — and now welcoming remote workers. Carreh prepares your full Zivno (freelance trade licence) and visa application.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>1 year extendable</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.4</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Czech Republic Digital Nomad Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/5692x3795/4a50b90637/argentina-digital-nomad-visa.jpg" alt="Argentina"/></div>
+      <div class="vc-flag">🇦🇷</div>
+      <div class="vc-badge">Digital Nomad</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Argentina · South America</div>
+        <h3>Argentina Digital Nomad Visa</h3>
+        <p>Buenos Aires is a world-class city with low cost of living. Argentina's Rentista digital nomad visa is accessible and fast — ideal for non-EU citizens.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>6 months renewable</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.2</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Argentina Digital Nomad Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/4032x3024/736a673db1/moldova-digital-nomad-visa.jpg" alt="Moldova"/></div>
+      <div class="vc-flag">🇲🇩</div>
+      <div class="vc-badge">Digital Nomad</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Moldova · Europe</div>
+        <h3>Moldova Digital Nomad Visa</h3>
+        <p>One of Europe's most affordable digital nomad destinations with a streamlined application. Moldova offers a growing tech scene and low cost of living.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>1 year</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.2</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Moldova Digital Nomad Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     GOLDEN VISAS
+══════════════════════════════ -->
+<div id="sec-golden" class="vsec" style="display:none;">
+  <div class="vsec-hd reveal">
+    <div class="eyebrow">Golden Visas &amp; Investment Residency</div>
+    <h2>Invest in Your Future.<br/>Secure a Second Home.</h2>
+    <p>Golden visas grant residency — or even citizenship — in exchange for qualifying investments in real estate, businesses or government bonds. Carreh connects you with legal and investment specialists to make this a reality.</p>
+    <div style="margin-top:1.5rem;"><button class="btn btn-purple" onclick="openModal('Golden Visa Consultation')">Start Golden Visa Journey →</button></div>
+    <div class="scroll-hint">Scroll to explore →</div>
+  </div>
+  <div class="visa-grid reveal">
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/4000x2250/0a08c4c975/portugal-golden-visa.jpg" alt="Portugal"/></div>
+      <div class="vc-flag">🇵🇹</div>
+      <div class="vc-badge">Golden Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Portugal · Europe</div>
+        <h3>Portugal Golden Visa</h3>
+        <p>Invest €500,000 in qualifying Portuguese funds or ventures and gain residency with a path to citizenship in 5 years. Access to EU, Schengen and NFHabitual Residence tax benefits.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">💰 <strong>From €500,000</strong></div>
+          <div class="vc-mi">📅 <strong>5 years → citizenship</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.0</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Portugal Golden Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/1280x720/a46f54961a/greece-golden-visa.jpg" alt="Greece"/></div>
+      <div class="vc-flag">🇬🇷</div>
+      <div class="vc-badge">Golden Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Greece · Europe</div>
+        <h3>Greece Golden Visa</h3>
+        <p>Gain EU residency with a real estate investment from €250,000 (some areas from €500,000). No minimum stay requirement — ideal for those who travel frequently.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">💰 <strong>From €250,000</strong></div>
+          <div class="vc-mi">📅 <strong>5 years renewable</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 3.8</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Greece Golden Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/800x500/593f5cc173/malta-golden-visa.jpg" alt="Malta"/></div>
+      <div class="vc-flag">🇲🇹</div>
+      <div class="vc-badge">Golden Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Malta · Europe</div>
+        <h3>Malta Golden Visa (MPRP)</h3>
+        <p>The Malta Permanent Residency Programme offers a genuine permanent residency — one of the few in Europe. Includes property and contribution requirements.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">💰 <strong>From €150,000</strong></div>
+          <div class="vc-mi">📅 <strong>Permanent residency</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.0</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Malta Golden Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/8510x5673/d2d1098bd8/uae-golden-visa.jpg" alt="UAE"/></div>
+      <div class="vc-flag">🇦🇪</div>
+      <div class="vc-badge">Golden Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">UAE · Asia</div>
+        <h3>UAE Golden Visa</h3>
+        <p>The UAE Golden Visa offers 5 or 10-year renewable residency for investors, entrepreneurs, skilled professionals and exceptional students.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">💰 <strong>From AED 2M (~€500k)</strong></div>
+          <div class="vc-mi">📅 <strong>5 or 10 years</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 3.6</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('UAE Golden Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/6130x4087/03b7835e09/hungary-golden-visa.jpg" alt="Hungary"/></div>
+      <div class="vc-flag">🇭🇺</div>
+      <div class="vc-badge">Golden Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Hungary · Europe</div>
+        <h3>Hungary Golden Visa</h3>
+        <p>The Hungary Guest Investor Visa offers EU residency with a real estate or fund investment from €250,000. Fast processing and one of Europe's newest golden visa programs.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">💰 <strong>From €250,000</strong></div>
+          <div class="vc-mi">📅 <strong>10 years renewable</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.4</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Hungary Golden Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/5736x4301/5718a52c29/italy-golden-visa.jpg" alt="Italy"/></div>
+      <div class="vc-flag">🇮🇹</div>
+      <div class="vc-badge">Golden Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Italy · Europe</div>
+        <h3>Italy Investor Visa</h3>
+        <p>Italy's Investor Visa grants 2-year renewable residency in exchange for investments in government bonds, companies, funds or philanthropic projects.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">💰 <strong>From €250,000</strong></div>
+          <div class="vc-mi">📅 <strong>2 years renewable</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 3.8</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Italy Investor Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     WORK & TALENT VISAS
+══════════════════════════════ -->
+<div id="sec-work" class="vsec" style="display:none;">
+  <div class="vsec-hd reveal">
+    <div class="eyebrow">Work, Talent &amp; Entrepreneur Visas</div>
+    <h2>Build Your Career<br/>Anywhere in the World.</h2>
+    <p>Whether you're a skilled professional, a startup founder or a freelancer, Carreh connects you with the right visa pathway to build your career in Europe, the Middle East or Asia.</p>
+    <div style="margin-top:1.5rem;"><button class="btn btn-purple" onclick="openModal('Work Visa Consultation')">Request Work Visa Guidance →</button></div>
+    <div class="scroll-hint">Scroll to explore →</div>
+  </div>
+  <div class="visa-grid reveal">
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/3944x2629/dbf36fff2b/eu-blue-card.jpg" alt="France EU Blue Card"/></div>
+      <div class="vc-flag">🇫🇷</div>
+      <div class="vc-badge">EU Blue Card</div>
+      <div class="vc-body">
+        <div class="vc-ctry">France · Europe</div>
+        <h3>French EU Blue Card</h3>
+        <p>For highly qualified non-EU professionals. Requires a work contract or job offer in France with a salary of at least 1.5x the average gross annual salary.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>4 years renewable</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.2</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('French EU Blue Card')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/6000x4000/6f54372cfb/france-tech-visa.jpg" alt="France Tech Visa"/></div>
+      <div class="vc-flag">🇫🇷</div>
+      <div class="vc-badge">Tech Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">France · Europe</div>
+        <h3>French Tech Visa</h3>
+        <p>The French Tech Visa is a fast-track 4-year visa for international tech talent, startup founders and investors backed by French institutions.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>4 years</strong></div>
+          <div class="vc-mi">⏱ <strong>Fast-track processing</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.2</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('French Tech Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/5914x3942/d83b774b24/germany-eu-blue-card.jpg" alt="Germany"/></div>
+      <div class="vc-flag">🇩🇪</div>
+      <div class="vc-badge">EU Blue Card</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Germany · Europe</div>
+        <h3>Germany EU Blue Card</h3>
+        <p>Germany is Europe's largest economy — and its Blue Card program welcomes skilled professionals across tech, engineering, medicine and more.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>4 years</strong></div>
+          <div class="vc-mi">💰 <strong>Min salary threshold</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 2.6</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Germany EU Blue Card')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/4490x2579/f511d89772/malaysia-tech-entrepreneur-programme.jpg" alt="Malaysia Tech"/></div>
+      <div class="vc-flag">🇲🇾</div>
+      <div class="vc-badge">Tech Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Malaysia · Asia</div>
+        <h3>Malaysia Tech Entrepreneur Programme</h3>
+        <p>The Malaysia Tech Entrepreneur Programme (MyTEP) targets innovative tech founders and entrepreneurs looking to establish their business in Asia's tech hub.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>1–2 years</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.0</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Malaysia Tech Entrepreneur Programme')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/1920x1080/1064526227/malaysia-resident-pass-talent.jpg" alt="Malaysia Talent"/></div>
+      <div class="vc-flag">🇲🇾</div>
+      <div class="vc-badge">Talent Residency</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Malaysia · Asia</div>
+        <h3>Malaysia Resident Pass — Talent</h3>
+        <p>The Resident Pass — Talent (RP-T) is Malaysia's premium long-term residency for highly skilled professionals. Valid for 10 years and allows free mobility in the job market.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>10 years</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.0</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Malaysia Resident Pass Talent')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/1280x720/bb80c0df1f/uae-green-visa-for-self-employed.jpg" alt="UAE Green Visa"/></div>
+      <div class="vc-flag">🇦🇪</div>
+      <div class="vc-badge">Green Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">UAE · Asia</div>
+        <h3>UAE Green Visa — Self Employed</h3>
+        <p>The UAE Green Visa for freelancers and self-employed professionals grants 5-year residency without the need for a sponsor. Ideal for consultants and independent contractors.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>5 years</strong></div>
+          <div class="vc-mi">💰 <strong>Annual income AED 360k+</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 3.6</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('UAE Green Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     STUDENT VISAS
+══════════════════════════════ -->
+<div id="sec-student" class="vsec" style="display:none;">
+  <div class="vsec-hd reveal">
+    <div class="eyebrow">Student Visas</div>
+    <h2>Study in Europe.<br/>Build a Global Career.</h2>
+    <p>Studying abroad opens doors for life. Carreh helps students — particularly from Nigeria and Africa — navigate the student visa process for European universities, covering documentation, financial proof and application submission.</p>
+    <div style="margin-top:1.5rem;"><button class="btn btn-purple" onclick="openModal('Student Visa Consultation')">Apply for Student Visa →</button></div>
+    <div class="scroll-hint">Scroll to explore →</div>
+  </div>
+  <div class="visa-grid reveal">
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/6774x4492/fbfef81e7b/france-student-visa.jpg" alt="France Student"/></div>
+      <div class="vc-flag">🇫🇷</div>
+      <div class="vc-badge">Student Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">France · Europe</div>
+        <h3>France Student Visa (VLS-T)</h3>
+        <p>Study at prestigious French grandes écoles or universities. Carreh guides you through Campus France pre-registration, financial proof and the complete dossier preparation.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Duration of studies</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.2</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('France Student Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/5055x3370/b9b7fa6e74/portugal-student-visa.jpg" alt="Portugal Student"/></div>
+      <div class="vc-flag">🇵🇹</div>
+      <div class="vc-badge">Student Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Portugal · Europe</div>
+        <h3>Portugal Student Visa</h3>
+        <p>Study in Lisbon or Porto with an affordable cost of living. Portugal's student visa allows part-time work and easy transition to a post-study residency permit.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Duration of studies</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.0</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Portugal Student Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/7360x4912/4d5e186875/italy-student-visa.jpg" alt="Italy Student"/></div>
+      <div class="vc-flag">🇮🇹</div>
+      <div class="vc-badge">Student Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Italy · Europe</div>
+        <h3>Italy Student Visa (Type D)</h3>
+        <p>Study in Rome, Milan or Florence. Italy's student visa covers bachelor's, master's and doctoral programs at Italian universities and academies.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Duration of studies</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 3.8</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Italy Student Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/6000x4000/98751ca241/daniel-prado-2cox4tg0tc0-unsplash.jpg" alt="Spain Student"/></div>
+      <div class="vc-flag">🇪🇸</div>
+      <div class="vc-badge">Student Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Spain · Europe</div>
+        <h3>Spain Student Visa</h3>
+        <p>Study Spanish language, arts or business in Madrid or Barcelona. Spain's student visa covers both full-degree programs and short language courses over 90 days.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Duration of studies</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 3.6</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Spain Student Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/1280x720/5f315762c8/czech-republic-student-visa.jpg" alt="Czech Republic Student"/></div>
+      <div class="vc-flag">🇨🇿</div>
+      <div class="vc-badge">Student Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Czech Republic · Europe</div>
+        <h3>Czech Republic Student Visa</h3>
+        <p>Prague offers world-class education at competitive tuition fees. The Czech student visa is accessible with straightforward requirements and good post-study options.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Duration of studies</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 4.4</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Czech Republic Student Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/4866x3244/1f0c254906/serbia-student-visa.jpg" alt="Serbia Student"/></div>
+      <div class="vc-flag">🇷🇸</div>
+      <div class="vc-badge">Student Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Serbia · Europe</div>
+        <h3>Serbia Student Visa</h3>
+        <p>Belgrade is a dynamic, affordable student city with growing international university programs. Serbia's student visa is one of the easiest to obtain in Europe.</p>
+        <div class="vc-meta">
+          <div class="vc-mi">📅 <strong>Duration of studies</strong></div>
+          <div class="vc-mi">⭐ <strong>Rating: 3.4</strong></div>
+        </div>
+        <button class="vc-btn" onclick="openModal('Serbia Student Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     FAMILY REUNIFICATION
+══════════════════════════════ -->
+<div id="sec-family" class="vsec" style="display:none;">
+  <div class="vsec-hd reveal">
+    <div class="eyebrow">Family Reunification Visas</div>
+    <h2>Keep Your Family<br/>Together.</h2>
+    <p>Family reunification visas allow legal residents to bring their spouse, children or parents to join them abroad. Carreh handles the complex documentation and administrative processes with care and precision.</p>
+    <div style="margin-top:1.5rem;"><button class="btn btn-purple" onclick="openModal('Family Reunification Visa')">Request Family Visa Guidance →</button></div>
+    <div class="scroll-hint">Scroll to explore →</div>
+  </div>
+  <div class="visa-grid reveal">
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/4842x3677/2484db7e46/portugal-family-reunification.jpg" alt="Portugal Family"/></div>
+      <div class="vc-flag">🇵🇹</div><div class="vc-badge">Family D6 Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Portugal · Europe</div>
+        <h3>Portugal Family Reunification (D6)</h3>
+        <p>The D6 visa allows family members of legal Portuguese residents to join them in Portugal. Covers spouse, minor children and dependent parents.</p>
+        <div class="vc-meta"><div class="vc-mi">📅 <strong>2 years renewable</strong></div><div class="vc-mi">⭐ <strong>Rating: 4.0</strong></div></div>
+        <button class="vc-btn" onclick="openModal('Portugal Family Reunification D6')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/4928x3168/1fbc6009a8/italy-family-reunification.jpg" alt="Italy Family"/></div>
+      <div class="vc-flag">🇮🇹</div><div class="vc-badge">Family Reunification</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Italy · Europe</div>
+        <h3>Italy Family Reunification Visa</h3>
+        <p>For family members of legal Italian residents. Requires proof of adequate housing, minimum income and health insurance coverage for all joining members.</p>
+        <div class="vc-meta"><div class="vc-mi">📅 <strong>Duration of sponsor permit</strong></div><div class="vc-mi">⭐ <strong>Rating: 3.8</strong></div></div>
+        <button class="vc-btn" onclick="openModal('Italy Family Reunification')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/6588x4392/9d4a1e9260/spain-family-reunion-visa-1.jpg" alt="Spain Family"/></div>
+      <div class="vc-flag">🇪🇸</div><div class="vc-badge">Family Reunion</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Spain · Europe</div>
+        <h3>Spain Family Reunion Visa</h3>
+        <p>Bring your family to Spain once you hold a valid long-term residence permit. Carreh handles all documentation including housing certificates and financial proof.</p>
+        <div class="vc-meta"><div class="vc-mi">📅 <strong>1 year renewable</strong></div><div class="vc-mi">⭐ <strong>Rating: 3.4</strong></div></div>
+        <button class="vc-btn" onclick="openModal('Spain Family Reunion Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/1280x720/4fd3cca89a/croatia-family-reunification-visa.jpg" alt="Croatia Family"/></div>
+      <div class="vc-flag">🇭🇷</div><div class="vc-badge">Family Reunification</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Croatia · Europe</div>
+        <h3>Croatia Family Reunification</h3>
+        <p>For family members of non-EU nationals legally residing in Croatia. Covers spouses and minor children with straightforward requirements.</p>
+        <div class="vc-meta"><div class="vc-mi">📅 <strong>1 year renewable</strong></div><div class="vc-mi">⭐ <strong>Rating: 4.4</strong></div></div>
+        <button class="vc-btn" onclick="openModal('Croatia Family Reunification')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/1280x720/100b11de9a/czechia-family-reunion-visa.jpg" alt="Czech Family"/></div>
+      <div class="vc-flag">🇨🇿</div><div class="vc-badge">Family Reunion</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Czech Republic · Europe</div>
+        <h3>Czech Republic Family Reunion Visa</h3>
+        <p>Join a family member legally residing in the Czech Republic. Carreh helps compile the required documentation including accommodation proof and birth certificates.</p>
+        <div class="vc-meta"><div class="vc-mi">📅 <strong>2 years renewable</strong></div><div class="vc-mi">⭐ <strong>Rating: 4.4</strong></div></div>
+        <button class="vc-btn" onclick="openModal('Czech Republic Family Reunion')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/6000x4000/43f09def40/south-africa-relative-s-visa.jpg" alt="South Africa Relatives"/></div>
+      <div class="vc-flag">🇿🇦</div><div class="vc-badge">Relative's Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">South Africa · Africa</div>
+        <h3>South Africa Relative's Visa</h3>
+        <p>The South African Relative's Visa allows foreign nationals to join a South African citizen or permanent resident family member in the country.</p>
+        <div class="vc-meta"><div class="vc-mi">📅 <strong>2 years renewable</strong></div><div class="vc-mi">⭐ <strong>Rating: 3.6</strong></div></div>
+        <button class="vc-btn" onclick="openModal('South Africa Relative Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     INVESTOR VISAS
+══════════════════════════════ -->
+<div id="sec-investor" class="vsec" style="display:none;">
+  <div class="vsec-hd reveal">
+    <div class="eyebrow">Investor &amp; Entrepreneur Visas</div>
+    <h2>Invest Globally.<br/>Reside Freely.</h2>
+    <p>For entrepreneurs and high-net-worth individuals looking to establish businesses or investment portfolios abroad. Carreh connects you with local legal counsel and financial advisors to navigate the most complex investment visa programs.</p>
+    <div style="margin-top:1.5rem;"><button class="btn btn-purple" onclick="openModal('Investor Visa Consultation')">Explore Investor Visas →</button></div>
+    <div class="scroll-hint">Scroll to explore →</div>
+  </div>
+  <div class="visa-grid reveal">
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/5000x3750/a3eb801ee3/portugal-d2-entrepreneur-visa.jpg" alt="Portugal Entrepreneur"/></div>
+      <div class="vc-flag">🇵🇹</div><div class="vc-badge">Entrepreneur</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Portugal · Europe</div>
+        <h3>Portugal D2 Entrepreneur Visa</h3>
+        <p>For entrepreneurs and independent professionals wishing to set up a business in Portugal. Includes freelancers, startup founders and company directors.</p>
+        <div class="vc-meta"><div class="vc-mi">📅 <strong>2 years renewable</strong></div><div class="vc-mi">⭐ <strong>Rating: 4.0</strong></div></div>
+        <button class="vc-btn" onclick="openModal('Portugal D2 Entrepreneur Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/4594x3063/76c89db1b0/italy-startup-visa.jpg" alt="Italy Startup"/></div>
+      <div class="vc-flag">🇮🇹</div><div class="vc-badge">Startup Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Italy · Europe</div>
+        <h3>Italy Startup Visa</h3>
+        <p>Italy's startup visa is for innovative entrepreneurs looking to launch a startup in Italy. A government committee evaluates business plans and awards the visa based on innovation potential.</p>
+        <div class="vc-meta"><div class="vc-mi">📅 <strong>1 year, extendable</strong></div><div class="vc-mi">⭐ <strong>Rating: 3.8</strong></div></div>
+        <button class="vc-btn" onclick="openModal('Italy Startup Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/1920x1080/02daa3f589/colombia-real-estate-investor-visa.jpg" alt="Colombia Investor"/></div>
+      <div class="vc-flag">🇨🇴</div><div class="vc-badge">Investor</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Colombia · South America</div>
+        <h3>Colombia Real Estate Investor Visa (M-10)</h3>
+        <p>Invest in Colombian real estate worth at least 350 SMMLV (~$85,000 USD) and receive a renewable residency visa. Medellín and Bogotá offer excellent investment opportunities.</p>
+        <div class="vc-meta"><div class="vc-mi">💰 <strong>~$85,000 USD</strong></div><div class="vc-mi">📅 <strong>3 years renewable</strong></div><div class="vc-mi">⭐ <strong>Rating: 3.6</strong></div></div>
+        <button class="vc-btn" onclick="openModal('Colombia Investor Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/1280x720/7c99986788/panama-golden-visa.jpg" alt="Panama Golden"/></div>
+      <div class="vc-flag">🇵🇦</div><div class="vc-badge">Golden Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Panama · Central America</div>
+        <h3>Panama Golden Visa</h3>
+        <p>Panama's Friendly Nations or Investor visa offers permanent residency for qualified investors. A tax-friendly jurisdiction with strong banking infrastructure.</p>
+        <div class="vc-meta"><div class="vc-mi">💰 <strong>From $300,000</strong></div><div class="vc-mi">📅 <strong>Permanent residency</strong></div><div class="vc-mi">⭐ <strong>Rating: 4.2</strong></div></div>
+        <button class="vc-btn" onclick="openModal('Panama Golden Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/7880x5253/779a0c4464/south-africa-business-visa.jpg" alt="South Africa Business"/></div>
+      <div class="vc-flag">🇿🇦</div><div class="vc-badge">Business Visa</div>
+      <div class="vc-body">
+        <div class="vc-ctry">South Africa · Africa</div>
+        <h3>South Africa Business Visa</h3>
+        <p>For entrepreneurs looking to establish or invest in a South African business. Requires a minimum investment and a viable business plan vetted by the Department of Trade.</p>
+        <div class="vc-meta"><div class="vc-mi">💰 <strong>Min ZAR 5M (~$260k)</strong></div><div class="vc-mi">📅 <strong>3 years renewable</strong></div><div class="vc-mi">⭐ <strong>Rating: 3.6</strong></div></div>
+        <button class="vc-btn" onclick="openModal('South Africa Business Visa')">Send a Request →</button>
+      </div>
+    </div>
+
+    <div class="vc">
+      <div class="vc-img"><img src="https://a-us.storyblok.com/f/1018409/4032x3024/bd2815d8d0/costa-rica-temporary-residency-as-investor.jpg" alt="Costa Rica Investor"/></div>
+      <div class="vc-flag">🇨🇷</div><div class="vc-badge">Investor</div>
+      <div class="vc-body">
+        <div class="vc-ctry">Costa Rica · Central America</div>
+        <h3>Costa Rica Investor Residency</h3>
+        <p>Invest at least $200,000 USD in Costa Rica and gain temporary residency for you and your family. Renewable and can lead to permanent residency after 3 years.</p>
+        <div class="vc-meta"><div class="vc-mi">💰 <strong>Min $200,000 USD</strong></div><div class="vc-mi">📅 <strong>2 years renewable</strong></div><div class="vc-mi">⭐ <strong>Rating: 4.0</strong></div></div>
+        <button class="vc-btn" onclick="openModal('Costa Rica Investor Residency')">Send a Request →</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- WHY CARREH SECTION -->
+<section class="section" style="background:var(--lavender2);">
+  <div class="eyebrow reveal">Why Choose Carreh</div>
+  <h2 class="disp reveal" style="margin-bottom:3rem;">Expert Guidance.<br/><em>Every Step.</em></h2>
+  <div class="srv-strip reveal" style="margin:0;">
+    <div class="srv" style="pointer-events:none;">
+      <span class="srv-ico">🎯</span>
+      <h3>Personalised Assessment</h3>
+      <p>We review your profile, nationality and goals to identify the most suitable visa pathway for your exact situation.</p>
+    </div>
+    <div class="srv" style="pointer-events:none;">
+      <span class="srv-ico">📋</span>
+      <h3>Complete Document Prep</h3>
+      <p>From bank statements to cover letters and translated documents — Carreh prepares every element of your dossier.</p>
+    </div>
+    <div class="srv" style="pointer-events:none;">
+      <span class="srv-ico">⚡</span>
+      <h3>Fast Response</h3>
+      <p>Our visa specialists respond within 24 hours. Urgent cases are handled with priority processing where available.</p>
+    </div>
+    <div class="srv" style="pointer-events:none;">
+      <span class="srv-ico">🛡️</span>
+      <h3>Ongoing Support</h3>
+      <p>We stay with you from first inquiry to visa approval — and beyond, for renewals and extensions.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-sec">
+  <div class="eyebrow wh reveal">Ready to Apply?</div>
+  <h2 class="reveal">Let Carreh Handle<br/><em>Your Visa Journey.</em></h2>
+  <p class="reveal">Our expert team is ready to guide you through the process — from eligibility assessment to visa approval.</p>
+  <div class="cta-row reveal">
+    <button class="btn btn-white" onclick="openModal('Visa Consultation')">Request Free Consultation →</button>
+    <a href="contact.html" class="btn btn-outline-wh">Contact Our Team</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft">
+    <div>
+      <a href="index.html" class="flogo">Carreh</a>
+      <p class="ftag">Your AI Travel Platform &amp; Luxury Concierge. Expert visa services. Paris-based, globally connected.</p>
+      <div class="fsoc">
+        <a href="https://instagram.com/carrehpro" target="_blank" class="fsoc-a">📷</a>
+        <a href="https://wa.me/330775846342" target="_blank" class="fsoc-a">💬</a>
+        <a href="mailto:support@carreh.com" class="fsoc-a">✉</a>
+      </div>
+    </div>
+    <div class="fc"><h4>Platform</h4><ul><li><a href="index.html#destinations">Destinations</a></li><li><a href="index.html#concierge">Concierge</a></li><li><a href="index.html#about">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div class="fc"><h4>Visa Services</h4><ul><li><a href="visas.html" onclick="setTimeout(()=>switchTab('sec-tourist',document.querySelector('[data-target=sec-tourist]')),200)">Tourist Visas</a></li><li><a href="visas.html" onclick="setTimeout(()=>switchTab('sec-nomad',document.querySelector('[data-target=sec-nomad]')),200)">Digital Nomad</a></li><li><a href="visas.html" onclick="setTimeout(()=>switchTab('sec-golden',document.querySelector('[data-target=sec-golden]')),200)">Golden Visas</a></li><li><a href="visas.html" onclick="setTimeout(()=>switchTab('sec-work',document.querySelector('[data-target=sec-work]')),200)">Work &amp; Talent</a></li></ul></div>
+    <div class="fc"><h4>Contact</h4><ul><li><a href="mailto:support@carreh.com">support@carreh.com</a></li><li><a href="https://wa.me/330775846342">+33 07 75 84 63 42</a></li><li><a href="https://instagram.com/carrehpro">@carrehpro</a></li><li><a href="#">Paris 75011</a></li></ul></div>
+  </div>
+  <div class="fb">
+    <span class="fb-copy">© 2025 Carreh. SIREN 999 322 886. All rights reserved.</span>
+    <span class="fb-copy">Paris · Lagos · London · Nairobi</span>
+  </div>
+</footer>
+
+<!-- REQUEST MODAL -->
+<div class="modal-bg" id="modalBg">
+  <div class="modal">
+    <button class="modal-x" onclick="closeModal()">✕</button>
+    <h3 id="modalTitle">Request Visa Assistance</h3>
+    <p class="modal-sub" id="modalSub">Our Carreh visa specialists will review your profile and respond within 24 hours.</p>
+    <form id="modalForm" name="visa-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="return submitModal(event)">
+      <input type="hidden" name="form-name" value="visa-request"/>
+      <p class="hidden" style="display:none;"><label>Don't fill this out: <input name="bot-field"/></label></p>
+      <div class="frow">
+        <div class="fg"><label>Full Name</label><input type="text" name="name" placeholder="Your full name" required/></div>
+        <div class="fg"><label>Email</label><input type="email" name="email" placeholder="your@email.com" required/></div>
+      </div>
+      <div class="frow">
+        <div class="fg"><label>Phone / WhatsApp</label><input type="tel" name="phone" placeholder="+33 or +234..."/></div>
+        <div class="fg"><label>Nationality</label><input type="text" name="nationality" placeholder="e.g. Nigerian, French..." required/></div>
+      </div>
+      <div class="fg">
+        <label>Visa Service</label>
+        <select name="service" id="modalService" required>
+          <option value="">Select visa type...</option>
+          <option>Schengen Tourist Visa</option>
+          <option>UK Visitor Visa</option>
+          <option>US Tourist Visa</option>
+          <option>Canada Tourist Visa</option>
+          <option>UAE Tourist Visa</option>
+          <option>China Tourist Visa</option>
+          <option>Malaysia Tourist Visa</option>
+          <option>Thailand Tourist Visa</option>
+          <option>Vietnam Tourist Visa</option>
+          <option>South Africa Tourist Visa</option>
+          <option>Morocco Tourist Visa</option>
+          <option>Turkey Tourist Visa</option>
+          <option>Portugal Digital Nomad Visa</option>
+          <option>France Digital Nomad Visa</option>
+          <option>Spain Digital Nomad Visa</option>
+          <option>Italy Digital Nomad Visa</option>
+          <option>Croatia Digital Nomad Visa</option>
+          <option>Greece Digital Nomad Visa</option>
+          <option>Portugal Golden Visa</option>
+          <option>Greece Golden Visa</option>
+          <option>UAE Golden Visa</option>
+          <option>Malta Golden Visa</option>
+          <option>Hungary Golden Visa</option>
+          <option>France Student Visa</option>
+          <option>Portugal Student Visa</option>
+          <option>Italy Student Visa</option>
+          <option>French EU Blue Card</option>
+          <option>French Tech Visa</option>
+          <option>Family Reunification Visa</option>
+          <option>Investor / Entrepreneur Visa</option>
+          <option>Other — I need advice</option>
+        </select>
+      </div>
+      <div class="fg"><label>Tell us about your situation</label><textarea name="message" rows="3" placeholder="Current country, visa history, timeline, any questions..."></textarea></div>
+      <button type="submit" class="fsub">Send Request →</button>
+    </form>
+    <div class="form-ok" id="modalOk">
+      <div class="ok-ico">✅</div>
+      <h4>Request Received!</h4>
+      <p>Thank you! Your visa request has been submitted successfully. Our team responds within 24 hours.</p>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+<script>
+// Handle anchor hash on page load for visa tab switching
+window.addEventListener('load', function(){
+  const hash = window.location.hash;
+  if(hash){
+    const map = {'#tourist':'sec-tourist','#nomad':'sec-nomad','#golden':'sec-golden','#work':'sec-work','#student':'sec-student','#family':'sec-family','#investor':'sec-investor'};
+    const target = map[hash];
+    if(target){
+      const btn = document.querySelector('[data-target="'+target+'"]');
+      if(btn) switchTab(target, btn);
+      setTimeout(()=>document.getElementById('visaNavBar').scrollIntoView({behavior:'smooth'}), 200);
+    }
+  }
+});
+</script>
+</body>
+</html>
